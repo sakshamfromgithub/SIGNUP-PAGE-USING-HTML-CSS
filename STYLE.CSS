@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray ;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #FF0000;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #FF0000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  label.required:after {
+    content: '*';
+    color: red;
+  }
+label:hover{
+text-decoration: underline;
+text-decoration-color: blueviolet;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+  input.required:after {
+    content: '*';
+    color: red;
+  }
+input:hover{
+  border-width: 3px;
+  border-color: #FE0000
+}
+
+button.SUBMIT {
+    background-color: #0009FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button.SUBMIT:hover {
+    background-color: #FFF500;
+    color: #000000;
+}
+.or{
+  text-align-last: center
+}
+button.google{
+  height: 5vh;
+  width: 90vw;
+  background-color: white;
+  color: #0065FF;
+  border-radius: 25px;
+  border-color: #0065FF;
+  cursor: pointer;
+}
+button.apple{
+  height: 5vh;
+  width: 90vw;
+  background-color: white;
+  color: #000000;
+  border-radius: 25px;
+  border-color: #000000;
+  cursor: pointer;
+}
+button.gmail{
+  height: 5vh;
+  width: 90vw;
+  background-color: white;
+  color: #FF0000;
+  border-radius: 25px;
+  border-color: #FF0000;
+  cursor: pointer;
+}
+button.google:hover{
+  background-color: #0065FF;
+  color: #FFFFFF;
+}
+button.apple:hover{
+  background-color: #000;
+  color: #FFFFFF;
+}
+button.gmail:hover{
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+img{
+  width: 20vw;
+  height: 10vh;
+border: 2px solid white;
+  border-radius: 100px 100px 100px ;
+  padding-left: 125px
+}
